@@ -7,6 +7,40 @@
         <link rel="stylesheet" type="text/css" href="./style.css" title="style">
     </head>
     <body>
-        <div>Hello, calculator!</div>
+        <script>
+            let d = new Date();
+
+            function buttonFunction() {
+                document.getElementById("soleButton").style.color="red";
+                document.getElementById('Invisible-Text').innerHTML = getInputValue();
+            }
+
+            function getInputValue(){
+                var inputVal = document.getElementById("inputBox").value;
+                return inputVal;
+            }
+
+            function parseEquation() {
+            }
+
+            function countSigFigs(num) {
+                const splitString = num.split('');
+                alert(splitString);
+                alert("Inside countSigFigs(num)!")
+                const testString = "hello"?
+                return testString;
+            }
+
+            function debug() {
+                alert(countSigFigs(100));
+
+            }
+        </script>
+        <div class=calc> This is a calculator.
+            <input placeholder="Type chemistry equations here." id=inputBox>  </input> 
+            <button onclick="buttonFunction()" id="soleButton"> This is a button! </button>
+            <button onclick="debug()" id="debugButton"> Debug Button </button/>
+            <div id="Invisible-Text"> </div>
+        </div>
     </body>
-<html>
+    <html>

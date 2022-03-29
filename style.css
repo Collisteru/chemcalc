@@ -1,1 +1,44 @@
-/* I exist! */
+:root {
+    --main-color:#008080;
+}
+
+
+html {
+    background-color: var(--main-color);
+}
+
+.calc {
+
+    width:50%;
+    height:80%;
+    min-height: 400px;
+    margin:auto;
+    background-color:#FFFFFF;
+
+    text-align:center;
+}
+
+.button {
+    background-color:#F0F0F0;
+    border: solid;
+    border-width:1px;
+    text-align:center;
+    font-size:30px;
+
+}
+
+
+#inputBox {
+    background-color:#d3d3d3;
+
+    margin-left: 60px;
+    margin-right: 30px;
+   
+    text-align: center;
+    vertical-align: middle;
+    font-family:"sans-serif";
+
+    display:block;
+    min-height: 100px;
+    border-radius: 5px;
+}
