@@ -1,3 +1,0 @@
-unit usd
-addOne x = x + 1
-addOneUsd x = x + 1 usd

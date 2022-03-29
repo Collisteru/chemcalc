@@ -1,4 +1,0 @@
-unit usd
-import functions(addOne, addOneUsd)
-// This is a collection of tests for mainly functions
-id x = x

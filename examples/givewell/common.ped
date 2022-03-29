@@ -1,5 +1,0 @@
-
-unit years
-discount_rate = 1.04 ^years-1
-pv payment discount duration = 
-  payment * (1 -  discount ^ (-duration)) / ln discount
